@@ -75,6 +75,7 @@
 (setq org-directory "~/org")
 (setq org-default-notes-file "~/org/inbox.org")
 
+(load "~/.dotfiles/emacs/org-mode/templates.el" t)
 (load "~/.dotfiles/emacs/org-mode/notes.el" t)
 (load "~/.dotfiles/emacs/org-mode/tasks.el" t)
 (load "~/.dotfiles/emacs/org-mode/agenda.el" t)
