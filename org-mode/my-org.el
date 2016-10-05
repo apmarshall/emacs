@@ -72,6 +72,9 @@
      (bind-key "C-c k" 'org-cut-subtree org-mode-map)
      (setq org-yank-adjusted-subtrees t))
 
+(setq org-directory "~/org")
+(setq org-default-notes-file "~/org/inbox.org")
+
 (load "~/.dotfiles/emacs/org-mode/notes.el" t)
 (load "~/.dotfiles/emacs/org-mode/tasks.el" t)
 (load "~/.dotfiles/emacs/org-mode/agenda.el" t)
