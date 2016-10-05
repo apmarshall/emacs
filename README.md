@@ -4,8 +4,8 @@ These are my personal emacs configuration files. They are intended to work on ma
 
 ## Organization
 
-init.el.symlink
-init.el
+-- .emacs.d.symlink
+	| -- init.el
 -- general
 	|-- packages.el
 	|-- solar-mode.el
@@ -24,7 +24,7 @@ init.el
 -- magit.el
 -- emacs.secrets (not tracked)
 
-This is cascaded so that init.el.symlink contains general settings and then loads the subfiles for specific configurations, allowing the code to be more manageable.
+This is cascaded so that init.el contains general settings and then loads the subfiles for specific configurations, allowing the code to be more manageable.
 
 ## Use
 
