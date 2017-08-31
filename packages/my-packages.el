@@ -50,7 +50,7 @@
 
 (use-package ztree)
 
-(use-pakcage projectile
+(use-package projectile
    :config (projectile-global-mode))
 
 (use-package markdown-mode
