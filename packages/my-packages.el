@@ -37,7 +37,7 @@
   :bind (("M-x" . smex)
 	 ("M-X" . smex-major-mode-commands)))
 
-(use-package emacs-async
+(use-package async
    :config ((autoload 'dired-async-mode "dired-async.el" nil t)
 	   (dired-async-mode 1)))
 
