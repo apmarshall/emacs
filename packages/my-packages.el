@@ -14,7 +14,20 @@
 
 (use-package smex
   :bind (("M-x" . smex)
-	("M-X" . smex-major-mode-commands)))
+	 ("M-X" . smex-major-mode-commands)))
+
+(use-package emacs-async
+   :config
+	 (autoload 'dired-async-mode "dired-async.el" nil t)
+	 (dired-async-mode 1))
+
+(use-package helm
+   :config
+	 (require 'helm-config))
+
+(use-package flycheck
+   :ensure t
+   :init (global-flycheck-mode))
 
 (use-package magit
   :bind ("C-x g" magit-status)
@@ -26,12 +39,17 @@
 
 (use-package ztree)
 
+(use-pakcage projectile
+   :config
+	 projectile-global-mode)
+
 (use-package markdown-mode
   :mode "\\.md\\" )
 
 (use-package web-mode
   :mode "\\.html\\" "\\.php\\" )
 
-(use-package projectile
-  :config
-	projectile-global-mode)
+(use-package solarized-theme
+   :config
+	 (load-theme))
+
