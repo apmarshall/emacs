@@ -60,4 +60,4 @@
   :mode ("\\.html\\" "\\.php\\" ))
 
 (use-package solarized-theme
-   :config (load-theme))
+   :config (load-theme 'solarized-light))
