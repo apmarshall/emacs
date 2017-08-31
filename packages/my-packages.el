@@ -51,13 +51,13 @@
 (use-package ztree)
 
 (use-pakcage projectile
-   :config (projectile-global-mode)
+   :config (projectile-global-mode))
 
 (use-package markdown-mode
-  :mode "\\.md\\" )
+  :mode ("\\.md\\" ))
 
 (use-package web-mode
-  :mode "\\.html\\" "\\.php\\" )
+  :mode ("\\.html\\" "\\.php\\" ))
 
 (use-package solarized-theme
    :config (load-theme))
