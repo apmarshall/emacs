@@ -37,10 +37,6 @@
   :bind (("M-x" . smex)
 	 ("M-X" . smex-major-mode-commands)))
 
-(use-package async
-   :config ((autoload 'dired-async-mode "dired-async.el" nil t)
-	   (dired-async-mode 1)))
-
 (use-package helm
    :config
 	 (require 'helm-config))
