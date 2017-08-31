@@ -16,7 +16,7 @@
         ("GNU ELPA"     . 5)
         ("MELPA"        . 0)))
 
-(package initialize)
+(package-initialize)
 
 ;; Bootstrap `use-package'
 (unless (package-installed-p 'use-package)
