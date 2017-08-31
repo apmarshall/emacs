@@ -16,6 +16,5 @@
 (load "~/.dotfiles/emacs/emacs.secrets" t)
 (load "~/.dotfiles/emacs/general/custom-settings.el" t)
 (load "~/.dotfiles/emacs/packages/my-packages.el" t)
-(load "~/.dotfiles/emacs/org-mode/my-org.el" t)
 
 (server-start)
