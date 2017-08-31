@@ -46,11 +46,7 @@
    :init (global-flycheck-mode))
 
 (use-package magit
-  :bind ("C-x g" magit-status)
-  :config ((with-eval-after-load 'info
-  	  (info-initialize)
-  	  (add-to-list 'Info-directory-list
-	       "~/.emacs.d/site-lisp/magit/Documentation/")))
+  :bind ("C-x g" magit-status))
 
 (use-package ztree)
 
