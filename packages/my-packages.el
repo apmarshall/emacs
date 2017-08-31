@@ -46,7 +46,7 @@
    :init (global-flycheck-mode))
 
 (use-package magit
-  :bind ("C-x g" magit-status))
+  :bind ("C-x g" . magit-status))
 
 (use-package ztree)
 
