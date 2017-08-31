@@ -38,9 +38,8 @@
 	 ("M-X" . smex-major-mode-commands)))
 
 (use-package emacs-async
-   :config
-	 (autoload 'dired-async-mode "dired-async.el" nil t)
-	 (dired-async-mode 1))
+   :config ((autoload 'dired-async-mode "dired-async.el" nil t)
+	   (dired-async-mode 1)))
 
 (use-package helm
    :config
@@ -52,8 +51,7 @@
 
 (use-package magit
   :bind ("C-x g" magit-status)
-  :config
-	(with-eval-after-load 'info
+  :config ((with-eval-after-load 'info
   	  (info-initialize)
   	  (add-to-list 'Info-directory-list
 	       "~/.emacs.d/site-lisp/magit/Documentation/")))
@@ -61,8 +59,7 @@
 (use-package ztree)
 
 (use-pakcage projectile
-   :config
-	 projectile-global-mode)
+   :config (projectile-global-mode)
 
 (use-package markdown-mode
   :mode "\\.md\\" )
@@ -71,6 +68,4 @@
   :mode "\\.html\\" "\\.php\\" )
 
 (use-package solarized-theme
-   :config
-	 (load-theme))
-
+   :config (load-theme))
