@@ -14,7 +14,7 @@
 
       '(("MELPA Stable" . 10)
         ("GNU ELPA"     . 5)
-        ("MELPA"        . 0))
+        ("MELPA"        . 0)))
 
 (package initialize)
 
