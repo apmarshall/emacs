@@ -58,6 +58,3 @@
 
 (use-package web-mode
   :mode ("\\.html\\" "\\.php\\" ))
-
-(use-package solarized-theme
-   :config (load-theme 'solarized-light))
