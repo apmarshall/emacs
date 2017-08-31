@@ -14,4 +14,3 @@
         search-ring
         regexp-search-ring))
 
-(load "~/.dotfiles/emacs/solar-mode.el" t )
