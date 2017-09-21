@@ -58,3 +58,5 @@
 
 (use-package web-mode
   :mode ("\\.html\\" "\\.php\\" ))
+
+(use-package pandoc-mode)
