@@ -10,8 +10,8 @@
 (setq user-full-name "Alexander P. Floyd Marshall"
       user-mail-address "apmarshall@soren.tech")
       
-(load "~/.dotfiles/emacs/emacs.secrets" t)
-(load "~/.dotfiles/emacs/general/custom-settings.el" t)
-(load "~/.dotfiles/emacs/packages/my-packages.el" t)
+(load "~/.emacs.d/emacs.secrets" t)
+(load "~/.emacs.d/general/custom-settings.el" t)
+(load "~/.emacs.d/packages/my-packages.el" t)
 
 (server-start)
