@@ -1,0 +1,5 @@
+(use-package wgrep)
+(use-package project-local-variables)
+(use-package diminish)
+(use-package scratch)
+(use-package command-log-mode)
